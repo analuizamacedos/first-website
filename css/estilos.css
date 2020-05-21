@@ -1,3 +1,10 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background-image:
   url("https://www.worldofwallpaper.com/media/catalog/product/cache/f71946573e80bdd0181c5d8a67d6658d/d/e/dec171-apex-wood-grain-geometric-wallpaper-rose-gold-ea_1.jpg");
@@ -5,7 +12,8 @@ body {
     font-family:Monospace;
     height:100vh;
     } 
-  .menu {
+
+  .menu{
     background-color:WhiteSmoke;
     }
   
@@ -27,11 +35,39 @@ body {
     text-decoration:underline;
   }
   .site-subtitle,
-  .site-title {
-    color: MediumVioletRed;
-    text-align: center;
-  }
-  .site-subtitle {
-    font-style: italic;
-  }
-  
+.site-title {
+ text-align: center;
+}
+.site-title {
+   color: #541F0A;
+}
+.site-subtitle {
+  font-style: italic;
+  color: #79574A;
+}
+#div_esquerda {
+  background-color: whitesmoke;
+  min-height: 200px;
+  width:60%;
+  float: left;
+  font-family: Arial;
+  font-size: small;
+}
+#div_direita {
+  background-color:whitesmoke;
+  min-height: 200px;
+  width:40%;
+  float: right;
+  font-family: arial;
+  font-style: italic; 
+  font-size: small; 
+}
+.footer {
+  background-color:#ffcbe9;
+  font-family: Arial;
+  list-style: none; 
+ }
+ .sobre {
+  color:#79574A;
+  text-align: center; 
+ }
