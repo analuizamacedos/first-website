@@ -52,12 +52,6 @@ body {
   font-style: italic;
   color: #79574A;
 }
-.div1,
-.div2 {
-  width: 200px;
-  min height: 200px;
-  justify-content: space-between; 
-}
 
 .main {
   display: flex;
@@ -66,17 +60,11 @@ body {
   justify-content: space-around;
   margin: auto
 }
-.div1{
-  justify-content: flex-end;
+.text{
+  text-align: center;
   align-items: center;
-
-  
-}
-.div2{
-  justify-content:flex-start;
-  align-items:stretch; 
   font-size: small;
-  align-items: center;
+  justify-content: center;
 }
 .footer {
   background-color:#ffcbe9;
@@ -88,10 +76,25 @@ body {
   text-align: center; 
  }
  .img-perfil{
-   width: 180px;
-   height: 180px;
+   width: 20%;
+   height: 20%;
+   align-items: center;
+   justify-content: center;
  }
- /*hr style*/
- hr {
-  border-top: 2px dotted rgb(22, 2, 17);
+ 
+.form-group{
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  align-items: center;
+  justify-content: center;
+}
+.img-perfil{
+  align-items: center;
+  justify-content: center;
+  }
+  .name,
+.profession {
+ text-align: center;
 }
