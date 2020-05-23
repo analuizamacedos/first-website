@@ -68,11 +68,15 @@ body {
 }
 .div1{
   justify-content: flex-end;
+  align-items: center;
+
   
 }
 .div2{
   justify-content:flex-start;
-  
+  align-items:stretch; 
+  font-size: small;
+  align-items: center;
 }
 .footer {
   background-color:#ffcbe9;
