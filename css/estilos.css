@@ -14,7 +14,7 @@ body {
     } 
 .menu{
     background-image: url("https://i.pinimg.com/originals/c4/bd/8d/c4bd8dd8395edb8d529b40bdcca5112a.jpg");
-    font-family: 'Caveat', cursive;
+    font-family: 'Bebas Neue', cursive;
   
     }
   
@@ -97,4 +97,6 @@ body {
   .name,
 .profession {
  text-align: center;
+ align-items: center;
+ justify-content: center;
 }
