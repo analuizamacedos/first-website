@@ -42,25 +42,7 @@ body {
   a:hover {
     text-decoration:underline;
   }
-  .intro{
-  display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- width:auto;
-  }
-  .site-subtitle,
-.site-title {
- text-align: center;
-}
-.site-title {
-   color: #541F0A;
-}
-.site-subtitle {
-  font-style: italic;
-  color: #79574A;
-}
-
+  
 .main {
   display: flex;
   width: 80%;
@@ -102,17 +84,22 @@ body {
 }
   .name,
 .profession {
- text-align: center;
+  display: flex;
  align-items: center;
  justify-content: center;
+ flex-direction: column;
+ width:auto;
+ text-align: center;
 }
 
-.principal{
+.principal div{
  display: flex;
  align-items:center;
  justify-content:center;
  flex-direction: column;
  align-content: center;
+ flex-basis: content;
+ text-align: center;
 }
 .button {
  width:30%;
@@ -153,5 +140,18 @@ body {
 }
 .profession{
   font-style: italic;
-  color: #79574A;
+  color:black;;
+}
+.name{
+  font-family: 'Righteous', cursive;
+  color:black;
+}
+.intro div {
+  display: flex;
+ align-items:center;
+ justify-content:space-between;
+ flex-direction: column;
+ align-content: center;
+ flex-basis: 70%;
+ text-align: center;
 }
