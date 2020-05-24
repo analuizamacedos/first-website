@@ -85,15 +85,13 @@ body {
    justify-content: center;
  }
  
-.form{
+.form, button {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.img-perfil{
-  align-items: center;
-  justify-content: center;
-  }
   .name,
 .profession {
  text-align: center;
@@ -105,4 +103,8 @@ body {
   display: flex;
   align-items: flex-end;
  justify-content: center;
+}
+.button {
+  width:30%;
+  border-color: pink;
 }
