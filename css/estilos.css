@@ -108,3 +108,7 @@ body {
   width:30%;
   border-color: pink;
 }
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
