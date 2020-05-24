@@ -68,8 +68,11 @@ body {
 }
 .footer {
   background-color:#ffcbe9;
-  font-family: Arial;
-  list-style: none; 
+  font-family: Arial; 
+  position: absolute;
+  bottom: 0;
+  align-items: flex-end;
+  width:100% ;
  }
  .sobre {
   color:#79574A;
@@ -98,5 +101,10 @@ body {
 .profession {
  text-align: center;
  align-items: center;
+ justify-content: center;
+}
+
+.principal{
+  align-items: flex-end;
  justify-content: center;
 }
