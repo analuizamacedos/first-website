@@ -92,15 +92,7 @@ body {
  text-align: center;
 }
 
-.principal div{
- display: flex;
- align-items:center;
- justify-content:center;
- flex-direction: column;
- align-content: center;
- flex-basis: content;
- text-align: center;
-}
+
 .button {
  width:30%;
  border-color: pink;
@@ -129,9 +121,6 @@ body {
 .contato {
   text-align: center;
 }
-.card-body{
-  border-color: pink;
-}
 .contato-text{
   width:auto;
   font-size:14;;
@@ -146,12 +135,11 @@ body {
   font-family: 'Righteous', cursive;
   color:black;
 }
-.intro div {
+.main {
+  height:100%;
   display: flex;
- align-items:center;
- justify-content:space-between;
- flex-direction: column;
- align-content: center;
- flex-basis: 70%;
- text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
